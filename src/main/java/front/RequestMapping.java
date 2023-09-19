@@ -48,7 +48,6 @@ public class RequestMapping {
 		mapping.put(new RequestKeyValue("/toss/success", "GET"), new SuccessController());
 		
 		mapping.put(new RequestKeyValue("/review", "POST"), new ReviewController());
-		mapping.put(new RequestKeyValue("/checksearch", "GET"), new CheckSearchController());
 		
 		mapping.put(new RequestKeyValue("/checksearch", "GET"), new CheckSearchController());
 		mapping.put(new RequestKeyValue("/reg","POST"), new RegActionController());
